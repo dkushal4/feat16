@@ -1,0 +1,19 @@
+inputSet:
+  name: feat16branch
+  identifier: feat16branch
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: feat16
+    stages:
+      - stage:
+          identifier: fd
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 10s
